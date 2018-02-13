@@ -30,7 +30,7 @@ function takePicture(){
 }
 
 function zombify(){
-	document.getElementById('pictureContainer')=document.getElementById('pictureContainer').style.webkitFilter;
+	document.getElementById('pictureContainer').style.webkitFilter = document.getElementById("filter".value;
 }
 
 
